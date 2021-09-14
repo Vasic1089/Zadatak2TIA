@@ -1,0 +1,187 @@
+.meni {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: black;
+    color: white;
+    z-index: +1;
+    position: sticky;
+    top: 0%;
+
+}
+
+li {
+
+    float: left;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: pink;
+}
+
+i {
+    margin: 10px;
+}
+
+#logo {
+	width:auto;
+	height:85px;
+}
+
+h2 {
+    color: pink;
+}
+
+.roditelj {
+    display: flex;
+    height: auto;
+    background-image: url(picture/pozadina1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.divLevo {
+    flex: 2;
+    color: white;
+    padding: 30px;
+
+    padding-left: 80px;
+    font-size: 20pt;
+}
+
+.divDesno {
+    flex: 2;
+    color: white;
+    padding: 30px;
+    align-self: flex-start;
+    margin: 1em;
+    align-content: center;
+
+
+}
+
+.divLevo form {
+    margin-top: 30px;
+}
+
+h3 {
+    color: black;
+}
+
+.divDesno iframe {
+    padding-bottom: 300px;
+}
+
+h4 {
+    color: white;
+    font-size: 20pt;
+}
+
+
+.footer1 {
+    background-color: black (29, 26, 26);
+    color: white ;
+    height: 300px;
+    position: relative;
+
+}
+
+.footer1 {
+    border: 3px solid pink ;
+
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: black ;
+
+
+}
+
+.footer1 .informations i {
+    color: black ;
+}
+
+
+
+.footer1 .informations .socialmedia a {
+    color: black ;
+}
+
+.footer1 .informations .socialmedia a:hover {
+    color: blue;
+
+}
+
+
+
+
+.footer-bottom {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+}
+
+
+h3 {
+    color: black ;
+    font-size: 30px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #3B5998;
+    color: white;
+}

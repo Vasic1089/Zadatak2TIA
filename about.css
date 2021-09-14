@@ -1,0 +1,169 @@
+.meni {
+    top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: black;
+    color: white;
+    z-index: +1;
+    position: sticky;
+
+}
+
+li {
+
+    float: left;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: pink;
+}
+
+#logo {
+	width:auto;
+	height:85px;
+}
+
+.opis {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+i {
+    margin: 10px;
+}
+
+
+
+h2 {
+    color: pink;
+    text-align: center;
+}
+
+
+
+
+
+.all {
+    display: flex;
+    flex-direction: column;
+    background-image: url(picture/pozadina2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.slide {
+
+    margin: 20px;
+}
+
+.red1 {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+
+
+}
+
+.text {
+    font-size: 20px;
+    text-align: center;
+    color: black
+}
+
+.text1 {
+
+    font-size: 20px;
+    text-align: center;
+    color: black;
+
+}
+
+.footer1 {
+    background-color: black (29, 26, 26);
+    color: white;
+    height: 300px;
+    position: relative;
+
+}
+
+.footer1 {
+    border: 3px solid pink;
+
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: black;
+
+
+}
+
+.footer1 .informations i {
+    color: black;
+}
+
+
+
+.footer1 .informations .socialmedia a {
+    color: black;
+}
+
+.footer1 .informations .socialmedia a:hover {
+    color: black;
+
+}
+
+
+
+
+.footer-bottom {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+}
+
+
+h3 {
+    color: black;
+    font-size: 30px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
